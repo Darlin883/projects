@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*search vid about this*/
+}
+.nav{
+   
+    list-style-type: none;
+    text-align: center;
+    text-shadow: 0px 2px 3px#00000044;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav li { 
+    border-style: rgb(252, 206, 55);
+    background-color:rgb(252, 206, 55);
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2%;
+    width: 12.8em;
+    padding: 10px;
+    text-shadow: 0px 2px 3px#00000044;
+}
+
+.menu{
+    height: 100px;
+    background-color: #ffffff;
+}
+.borderboxes{
+    float: right;
+    width: 31%;
+    margin: 10px 1.5%;
+    height: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	text-decoration: none;
+    background-color: rgb(252, 206, 55);
+    text-shadow: 0px 2px 3px#00000044;
+
+}
+.content{
+    float: left;
+    height: 420px;
+    width: 858px; 
+    background-image: url("https://www.samtell.com/hubfs/Blogs/Four-Scrumptous-Tacos-Lined-up-with-ingredients-around-them-1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% ;
+    background-size:cover;
+}
+.footer{ /* “Clearing” a float is when we tell a block to ignore any floats that appear before it. */
+    clear: both;
+    height: 700px;
+    background-color: #facbcb;
+}
+.page{
+    width: 1318px;
+    margin-left: 7%;
+    overflow: hidden;
+    background-color: #eaedf0; 
+}
+.back{
+    background-color: #eaedf0; 
+}
+.column{
+    float: left;
+    width: 19.75%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #ffffff;
+}
+.longcolumn{
+    float: left;
+    width: 86%;
+    margin: 20px 1.15%;
+    height: 400px;
+    background-color: #ffffff;
+}
+.username{
+    margin-top: 30px;
+}
+.comment{
+    margin: 10px;
+    overflow: hidden;
+}
+.avatar{
+    float: left;
+    width: 400px;
+    height: 350px;
+    margin: 25px;
+    border-radius: 20px;
+    
+}
+
+.pfp{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 2%;
+    
+}
+.btmTxt{
+    text-align: center;
+    text-shadow: 0px 2px 3px#00000044; 
+    font-size: 15px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topTxt{
+    text-align: center;
+    text-shadow: 0px 2px 3px#00000044;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#grad{
+    background-image: linear-gradient(to right, #f72585, #3a0ca3);
+}
+.footerTxt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 8%;
+    font-size: 25px;
+    text-shadow: 0px 2px 3px#00000044;
+}
+.fFam{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 2px 3px#00000044;
+}
+.learnMore{
+    width: 150px;
+    height: 40px;
+    text-shadow: 0px 2px 3px#00000044;
+    margin-left: 34.7%;;
+    background-color: rgb(252, 206, 55);
+    margin-top: 2%;
+    text-align: center;
+}
+.BigcontentTxt{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 36%;
+    text-shadow: 0px 2px 3px#00000044;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 206, 55);
+    border:solid rgb(252, 206, 55);
+    
+}
+.smallcontentTxt{
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 21%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 206, 55);
+    border:solid rgb(252, 206, 55);
+    text-shadow: 0px 2px 3px#00000044;
+    
+}
